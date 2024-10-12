@@ -19,7 +19,7 @@ p {
 }
 
 section {
-  margin-top: 16px;
+  margin: 16px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,40 +67,80 @@ section {
 
 .red {
   background-color: hsla(0, 100%, 50%, 1);
-  box-shadow: 0 0 15px hsla(0, 100%, 50%, 1);
+  box-shadow: 0 0 20px hsla(0, 100%, 50%, 1);
 }
 
 .green {
   background-color: hsla(120, 100%, 25%, 1);
-  box-shadow: 0 0 15px hsla(120, 100%, 25%, 1);
+  box-shadow: 0 0 20px hsla(120, 100%, 25%, 1);
 }
 
 .blue {
   background-color: hsla(240, 99%, 50%, 1);
-  box-shadow: 0 0 15px hsla(240, 99%, 50%, 1);
+  box-shadow: 0 0 20px hsla(240, 99%, 50%, 1);
 }
 
 .lightrose {
   background-color: hsla(352, 90%, 71%, 1);
-  box-shadow: 0 0 15px hsla(352, 90%, 71%, 1);
+  box-shadow: 0 0 20px hsla(352, 90%, 71%, 1);
 }
 
 .cyan {
   background-color: hsla(180, 100%, 50%, 1);
-  box-shadow: 0 0 15px hsla(180, 100%, 50%, 1);
+  box-shadow: 0 0 20px hsla(180, 100%, 50%, 1);
 }
 
 .yellow {
   background-color: hsla(60, 100%, 50%, 1);
-  box-shadow: 0 0 15px hsla(60, 100%, 50%, 1);
+  box-shadow: 0 0 20px hsla(60, 100%, 50%, 1);
 }
 
 .magenta {
   background-color: hsla(300, 100%, 50%, 1);
-  box-shadow: 0 0 15px hsla(300, 100%, 50%, 1);
+  box-shadow: 0 0 20px hsla(300, 100%, 50%, 1);
 }
 
 .black {
   background-color: hsla(300, 100%, 0%, 1);
-  box-shadow: 0 0 15px hsla(300, 100%, 0%, 1);
+  box-shadow: 0 0 20px hsla(300, 100%, 0%, 1);
+}
+
+.orange {
+  background-color: orange;
+  box-shadow: 0 0 20px orange;
+}
+
+.purple {
+  background-color: purple;
+  box-shadow: 0 0 20px purple;
+}
+
+.gray {
+  background-color: gray;
+  box-shadow: 0 0 20px gray;
+}
+
+.brown {
+  background-color: brown;
+  box-shadow: 0 0 20px brown;
+}
+
+.teal {
+  background-color: teal;
+  box-shadow: 0 0 20px teal;
+}
+
+.navy {
+  background-color: navy;
+  box-shadow: 0 0 20px navy;
+}
+
+.olive {
+  background-color: olive;
+  box-shadow: 0 0 20px olive;
+}
+
+.coral {
+  background-color: coral;
+  box-shadow: 0 0 20px coral;
 }
