@@ -7,3 +7,100 @@
 body {
   font-family: "Afacad Flux", sans-serif;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  position: relative;
+  line-height: 25px;
+  z-index: 20;
+}
+
+section {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.default {
+  position: relative;
+  height: 25px;
+  width: 200px;
+  text-align: end;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.default::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 117px;
+  background-color: hsl(0, 0%, 100%, 0.55);
+  box-shadow: 0 0 0.5px hsl(0, 0%, 100%, 0.55);
+  z-index: 10;
+  padding-right: 5px;
+  right: 16px;
+  top: 0;
+}
+
+.default::before {
+  content: "";
+  position: absolute;
+  left: 62px;
+  height: 25px;
+  width: 4px;
+  border-left: 3px solid hsla(0, 0%, 13%, 1);
+  border-right: 3px solid hsla(0, 0%, 13%, 1);
+  z-index: 11;
+}
+
+.red {
+  background-color: hsla(0, 100%, 50%, 1);
+  box-shadow: 0 0 15px hsla(0, 100%, 50%, 1);
+}
+
+.green {
+  background-color: hsla(120, 100%, 25%, 1);
+  box-shadow: 0 0 15px hsla(120, 100%, 25%, 1);
+}
+
+.blue {
+  background-color: hsla(240, 99%, 50%, 1);
+  box-shadow: 0 0 15px hsla(240, 99%, 50%, 1);
+}
+
+.lightrose {
+  background-color: hsla(352, 90%, 71%, 1);
+  box-shadow: 0 0 15px hsla(352, 90%, 71%, 1);
+}
+
+.cyan {
+  background-color: hsla(180, 100%, 50%, 1);
+  box-shadow: 0 0 15px hsla(180, 100%, 50%, 1);
+}
+
+.yellow {
+  background-color: hsla(60, 100%, 50%, 1);
+  box-shadow: 0 0 15px hsla(60, 100%, 50%, 1);
+}
+
+.magenta {
+  background-color: hsla(300, 100%, 50%, 1);
+  box-shadow: 0 0 15px hsla(300, 100%, 50%, 1);
+}
+
+.black {
+  background-color: hsla(300, 100%, 0%, 1);
+  box-shadow: 0 0 15px hsla(300, 100%, 0%, 1);
+}
